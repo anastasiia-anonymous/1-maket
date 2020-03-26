@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Waiting for the Sunrise;
+    src: url(../fonts/WaitingfortheSunrise.ttf)
+}
+@font-face {
+    font-family: Vollkorn;
+    src: url(../fonts/Vollkorn-Italic.ttf)
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf)
+}
+body {
+    margin: 0;
+}
+.main {
+    text-align: center;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+h1 {
+    font-family: Waiting for the Sunrise;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 132px;
+    color: #93c2ed;
+}
+.title { 
+    text-align: right;
+    font-family: Vollkorn;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 39px;
+    color: #93c2ed;
+}
+.content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #716868;
+}
+button {
+    background: #93c2ed;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+}
